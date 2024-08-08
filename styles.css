@@ -25,6 +25,12 @@ a {
     padding-bottom: 50px;
 }
 
+#info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .header-logo {
     color: #F9FAF8;
     font-size: 24px;
@@ -74,6 +80,36 @@ a {
 
 .place-holder-image {
     color: white;
+    font-size: 18px;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.cards {
+    display: flex;
+    gap: 30px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    align-items: center;
+}
+
+.card-box {
+    border: 2px solid #3882F6;
+    border-radius: 7px;
+    width: 100px;
+    height: 100px;
+}
+
+.card-text {
+    text-align: center;
     font-size: 18px;
 }
 
