@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 li {
     list-style: none;
 }
@@ -14,6 +18,13 @@ a {
     background-color: #1F2937;
 }
 
+#hero-banner {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+}
+
 .header-logo {
     color: #F9FAF8;
     font-size: 24px;
@@ -25,5 +36,44 @@ a {
     align-items: center;
     gap: 20px;
     
+}
+
+.hero-banner-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-header {
+    width: 400px;
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.hero-text {
+    width: 400px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-button {
+    width: 100px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 7px;
+    padding: 5px;
+}
+
+.hero-banner-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    width: 400px;
+}
+
+.place-holder-image {
+    color: white;
+    font-size: 18px;
 }
 
