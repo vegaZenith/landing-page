@@ -28,7 +28,14 @@ a {
 #info {
     display: flex;
     flex-direction: column;
+    align-items: center;  
+}
+
+#testimonial {
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    background-color: #E5E7EB;
 }
 
 .header-logo {
@@ -111,5 +118,19 @@ a {
 .card-text {
     text-align: center;
     font-size: 18px;
+}
+
+.quote {
+    width: 500px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+.quote-author {
+    display: flex;
+    justify-content: flex-end;
+    width: 500px;
 }
 
