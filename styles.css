@@ -18,6 +18,7 @@ a {
     justify-content: space-around;
     background-color: #1F2937;
     padding-bottom: 30px;
+    flex-wrap: wrap;
 }
 
 #hero-banner {
@@ -25,6 +26,7 @@ a {
     background-color: #1F2937;
     justify-content: space-evenly;
     padding: 50px 0;
+    flex-wrap: wrap;
 }
 
 #info {
@@ -32,19 +34,22 @@ a {
     flex-direction: column;
     align-items: center;  
     padding-bottom: 80px;
+    flex-wrap: wrap;
 }
 
 #testimonial {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
     background-color: #E5E7EB;
-    padding: 80px;
+    padding: 80px 20px;
 }
 
 #call-to-action{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 #footer {
@@ -64,23 +69,26 @@ a {
     justify-content: space-evenly;
     align-items: center;
     gap: 20px;
+    flex-wrap: wrap;
     
 }
 
 .hero-banner-content {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    width: 400px;
 }
 
 .hero-header {
-    width: 400px;
+    
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 800;
+    flex: 1;
 }
 
 .hero-text {
-    width: 400px;
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -115,6 +123,7 @@ a {
 .cards {
     display: flex;
     gap: 30px;
+    flex-wrap: wrap;
 }
 
 .card {
@@ -137,7 +146,7 @@ a {
 }
 
 .quote {
-    width: 800px;
+    max-width: 800px;
     font-size: 36px;
     font-style: italic;
     font-weight: 300;
@@ -146,14 +155,15 @@ a {
 }
 
 .quote-author {
-    display: flex;
-    justify-content: flex-end;
-    width: 500px;
+    max-width: 500px;
     margin: 0px;
+    align-self: end;
+    padding: 0 550px 0 15px;
 }
 
 .call-to-action-box {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     background-color: #3882F6;
     border-radius: 7px;
